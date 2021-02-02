@@ -1,0 +1,44 @@
+#hierarchy{
+	font-family: FontAwesome;
+	witdh: 300px;
+}
+
+.foldercontainer, .file, .noitems{
+	display: block;
+	padding: 5px, 5px, 5px, 50px;
+}
+
+.folder {
+	color: dark-yellow;
+}
+
+.file{
+	color: green;
+}
+
+.folder, .file{
+	cursor: pointer;
+}
+
+.noitems{
+	display: none;
+	pointer-events: none;
+}
+
+.folder:hover, .file:hover{
+	background: yellow;
+}
+
+.folder:before, .file:before{
+	padding-right: 10px;
+}
+
+.icon{
+	width: 15px;
+	height: 15px;
+}
+
+.tab{
+	padding-left: 2rem;
+}
+	
