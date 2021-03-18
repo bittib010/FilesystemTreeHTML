@@ -3,6 +3,15 @@
 	witdh: 300px;
 }
 
+button{
+	width: 5%;
+	height: 1REM;
+}
+
+.form-control{
+	width: 20%;
+}
+
 .foldercontainer, .file, .noitems{
 	display: block;
 	padding: 5px, 5px, 5px, 50px;
@@ -41,4 +50,6 @@
 .tab{
 	padding-left: 2rem;
 }
+
+
 	
