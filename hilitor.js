@@ -1,41 +1,5 @@
-function search() {
-	var myHilitor = new Hilitor("myTags"); // id of the element to parse
-	myHilitor.remove();
-	myHilitor.apply(searchItem);
-
-
-    var needle = document.getElementById("searchForm").elements["searchItem"].value;
-    needle = needle.toLowerCase();
-    var source = document.getElementsByClassName("myTags");
-    for (var s of source) if (s.textContent.toLowerCase().includes(needle))
-        ancestors(s, 'details').forEach(e => e.open = true);
-
-  	myHilitor.apply(searchItem);
-
-
-
-}
-
-function ancestors(e, t) {
-    var nodes = [];
-    t = t.toUpperCase();
-    while (e = e.parentNode) if (e.nodeName == t) nodes.push(e);
-    return nodes;
-}
-
-
-
-
-
-
-
-
-
-
-//**************************************************************
 // Original JavaScript code by Chirp Internet: chirpinternet.eu
 // Please acknowledge use of this code by including this header.
-//**************************************************************
 
 function Hilitor(id, tag)
 {
@@ -162,7 +126,7 @@ function Hilitor(id, tag)
   this.apply = function(input)
   {
     this.remove();
-    if(input === undefined || !(input = input.toString().replace(/(^\s+|\s+$)/g, ""))) {
+    if(input === undefined || !(input = input.replace(/(^\s+|\s+$)/g, ""))) {
       return;
     }
     if(this.setRegex(input)) {
@@ -172,11 +136,3 @@ function Hilitor(id, tag)
   };
 
 }
-
-//***************************************
-// Hilitor ends here
-//***************************************
-
-
-
-

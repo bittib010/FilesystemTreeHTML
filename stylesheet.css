@@ -12,6 +12,10 @@ details{
 	background-color: rgba(0, 0, 150, 0.04);
 }
 
+mark{
+	background-color: rgba(0, 200, 200, 0.3);
+}
+
 .form-control{
 	width: 20%;
 }
