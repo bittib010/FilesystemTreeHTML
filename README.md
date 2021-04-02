@@ -1,6 +1,6 @@
 # FilesystemTreeHTML
 
 
-This is a project that will eventually contain filesystem trees in the form of filetree structure with tooltips as to what different files do and what kind of information they store. This with a digital investigators interest in mind.
+This is a project that will eventually contain filesystem trees in the form of HTML with tooltips as to what different files do.
 
-I am going to add tags manually once I found the correct layout for the page. These tags will make the files searchable. Every file with a matching tag will be highlighted by a change of background. Hovering over the files will give ypu more information on what you may expect to find
+A future improvement would be to add tags to each file, meaning that you can search for a file that deals with Registry entries and the details-tag would open up on all the files containing that tag (preferably also hightlight it with color).
