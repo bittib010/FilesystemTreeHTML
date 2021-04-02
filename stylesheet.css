@@ -12,38 +12,8 @@ details{
 	background-color: rgba(0, 0, 150, 0.04);
 }
 
-mark{
-	background-color: rgba(0, 200, 200, 0.3);
-}
-
 .form-control{
 	width: 20%;
-}
-
-.foldercontainer, .file, .noitems{
-	display: block;
-	padding: 5px, 5px, 5px, 50px;
-}
-
-.folder {
-	color: dark-yellow;
-}
-
-.file{
-	color: green;
-}
-
-.folder, .file{
-	cursor: pointer;
-}
-
-.noitems{
-	display: none;
-	pointer-events: none;
-}
-
-.folder:hover, .file:hover{
-	background: yellow;
 }
 
 .folder:before, .file:before{
@@ -55,6 +25,7 @@ mark{
 	height: 15px;
 }
 
+/* Adds indentation to folders */
 .tab{
 	padding-left: 2rem;
 }

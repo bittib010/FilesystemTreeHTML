@@ -6,7 +6,7 @@ from stat import *
 # Learning about hard links and junctions. This is one of the disadvantages of the output,
 # not showing hardlinks and junctions
 
-root_dir = '/Users/adriankydlandskaftun/Documents/'
+root_dir = 'F:/Apple2007image'
 
 
 
