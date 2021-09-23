@@ -36,7 +36,7 @@ function ancestors(e, t) {
 // Original JavaScript code by Chirp Internet: chirpinternet.eu
 // Please acknowledge use of this code by including this header.
 //**************************************************************
-
+/* 
 function Hilitor(id, tag)
 {
 
@@ -172,7 +172,7 @@ function Hilitor(id, tag)
   };
 
 }
-
+ */
 //***************************************
 // Hilitor ends here
 //***************************************
